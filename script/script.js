@@ -1,5 +1,5 @@
 let inputHex = document.querySelector('input');
-let rgbDisplay = document.querySelector('p');
+let rgbDisplay = document.querySelectorAll('p')[1];
 let button = document.querySelector('button');
 
 function hexToDecimal(hexChar) {
